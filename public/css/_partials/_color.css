@@ -1,0 +1,37 @@
+/* Colors */
+
+* {
+	--green: #269401;
+	--lightgreen: #8ff39f;
+}
+
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+/* Backgrounds */
+
+.bg-dark1 { background: rgba(0, 0, 0, .1); }
+.bg-dark2 { background: rgba(0, 0, 0, .2); }
+.bg-dark3 { background: rgba(0, 0, 0, .3); }
+.bg-dark4 { background: rgba(0, 0, 0, .4); }
+.bg-dark5 { background: rgba(0, 0, 0, .5); }
+.bg-dark6 { background: rgba(0, 0, 0, .6); }
+.bg-dark7 { background: rgba(0, 0, 0, .7); }
+.bg-dark8 { background: rgba(0, 0, 0, .8); }
+.bg-dark9 { background: rgba(0, 0, 0, .9); }
+
+.bg-light1 { background: rgba(255, 255, 255, .1); }
+.bg-light2 { background: rgba(255, 255, 255, .2); }
+.bg-light3 { background: rgba(255, 255, 255, .3); }
+.bg-light4 { background: rgba(255, 255, 255, .4); }
+.bg-light5 { background: rgba(255, 255, 255, .5); }
+.bg-light6 { background: rgba(255, 255, 255, .6); }
+.bg-light7 { background: rgba(255, 255, 255, .7); }
+.bg-light8 { background: rgba(255, 255, 255, .8); }
+.bg-light9 { background: rgba(255, 255, 255, .9); }

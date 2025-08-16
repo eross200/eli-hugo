@@ -1,0 +1,19 @@
+<header class="header-interior">
+	<div class="container">
+
+		<div class="d-flex flex-column flex-md-row">
+			<a href="{{ .Site.BaseURL }}"><img class="interior-logo" src="{{ .Site.BaseURL }}/img/theme-img/logo-elih3-long.svg"></a>
+			<img class="w-100 d-block d-md-none my-3" src="{{ .Site.BaseURL }}/img/theme-img/divider-mid.svg">
+			<h1 class="text-light align-self-md-end">{{ .Title }}</h1>
+		</div>
+
+		<nav class="d-none">
+			<ul>
+				{{ range .Site.Menus.main }}
+				<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</nav>
+
+	</div>
+</header>

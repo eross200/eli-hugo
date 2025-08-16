@@ -1,0 +1,103 @@
+
+header.masthead {
+	background: url(../../img/theme-img/bw.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-style: normal;
+	color: #63BC46;
+	font-family: "Courier Prime", monospace;
+	/* padding-top: 5rem; */
+
+	.welcome {
+		.masthead-inner {
+			position: relative;
+			top: 25%;
+
+			img.masthead-logo {
+				margin: 0 auto 1rem auto;
+				width: 75%;
+			}
+		
+			.buttons {
+				font-weight: bold;
+				font-size: 120%;
+			}
+		}
+
+		a {
+			text-decoration: none;
+			/* color: green; */
+			color: var(--green);
+		}
+
+	}
+
+}
+
+
+header.header-interior {
+	background: rgb(66, 66, 66);
+	padding-top: 4rem;
+	text-align: center;
+	img.interior-logo {
+
+	}
+	h1 {
+	}
+}
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/**/@media only screen and (min-width : 320px) {}
+
+@media only screen and (min-width : 576px) {
+	/* * {	background: red; } */
+}
+
+@media only screen and (min-width : 768px) {
+	/* * {	background: green; } */
+
+		header.header-interior {
+			padding: 1.5rem;
+			text-align: left;
+
+	
+			img.interior-logo {
+				width: 20rem;
+			}
+	
+			h1 {
+				margin: 0;
+				margin-left: 2rem;
+				padding-left: 2rem;
+				width: 100%;
+				background: rgb(44, 44, 44);
+				border-left: 1rem solid var(--green);
+			}
+		}
+
+}
+
+@media only screen and (min-width : 992px) {
+	/* * {	background: blue; } */
+
+}
+
+@media only screen and (min-width : 1200px) {
+	/* * {	background: orange; } */
+}
+
+@media only screen and (min-width : 1400px) {
+	/* * {	background: orange; } */
+}
+
+@media only screen and (min-width : 1800px) {
+	/* * {	background: orange; } */
+}

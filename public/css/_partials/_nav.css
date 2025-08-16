@@ -1,0 +1,88 @@
+.nav-mobile {
+	top: 0;
+	z-index: 999;
+	margin-top: 0;
+	height: 3rem;
+	padding: 0 1rem;
+	background-color: var(--green);
+
+
+	a.menu-open {
+		img {
+			width: 4rem;
+			display: inline-block;
+		}
+	}
+
+	a.menu-open:hover {
+	}
+}
+
+.offcanvas {
+	background: rgb(63, 63, 63);
+	.offcanvas-body {
+		background: rgb(87, 87, 87);
+	}
+}
+
+
+.nav-desktop {
+	top: 0;
+	z-index: 998;
+	position: sticky;
+	background-color: var(--green);
+	margin-bottom: 2rem;
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			font-weight: bold;
+			display: inline-block;
+			margin: 0 -3px;
+
+			a {
+				display: block;
+				text-decoration: none;
+				padding: 1rem .66rem;
+				color: #fff;
+			}
+
+			a:hover {
+				background: var(--lightgreen);
+			}
+		}
+	}
+
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/**/@media only screen and (min-width : 320px) {}
+
+@media only screen and (min-width : 576px) {
+	/* * {	background: red; } */
+}
+
+@media only screen and (min-width : 768px) {
+	/* * {	background: green; } */
+}
+
+@media only screen and (min-width : 992px) {
+	/* * {	background: blue; } */
+}
+
+@media only screen and (min-width : 1200px) {
+	/* * {	background: orange; } */
+}
+
+@media only screen and (min-width : 1400px) {
+	/* * {	background: orange; } */
+}
+
+@media only screen and (min-width : 1800px) {
+	/* * {	background: orange; } */
+}

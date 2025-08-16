@@ -1,0 +1,42 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+ignoreLogs = ['warning-goldmark-raw-html']
+title = 'My New Hugo Site'
+
+
+  [[menus.main]]
+    identifier = "home"
+    name = "Home"
+    pageRef = "/"
+    weight = 1
+
+  [[menus.main]]
+    identifier = "history"
+    name = "History"
+    pageRef = "/history"
+    weight = 20
+
+  [[menus.main]]
+    identifier = "photos"
+    name = "Photos"
+    pageRef = "/photos"
+    weight = 30
+
+  [[menus.main]]
+    identifier = "testimonials"
+    name = "Testimonials"
+    pageRef = "/testimonials"
+    weight = 40
+
+  [[menus.main]]
+    identifier = "takehomeables"
+    name = "Take-Home-Ables"
+    pageRef = "/take-home"
+    weight = 50
+
+  [[menus.main]]
+    identifier = "posts"
+    name = "Posts"
+    pageRef = "/posts"
+    weight = 60
+
