@@ -1,18 +1,22 @@
 {{ define "main" }}
-<h1>Welcome to my site this is the awesome homepage file</h1>
+<div class="container d-none">
 
-<ul class="d-none">
-	{{ range .Pages }}
-	<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-	{{ end }}
-</ul>
+	<h1>Welcome to my site this is the awesome homepage file</h1>
+	
+	<ul class="">
+		{{ range .Pages }}
+		<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
+	
+	<div>
+		<p>title and content</p>
+		<h1>{{ .Title }}</h1>
+		<p>{{ .Content }}</p>
+	</div>
 
-<div>
-	<p>title and content</p>
-	<h1>{{ .Title }}</h1>
-	<p>{{ .Content }}</p>
+
 </div>
-
 
 {{ end }}
 

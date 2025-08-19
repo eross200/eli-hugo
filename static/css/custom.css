@@ -6,10 +6,7 @@
 @import '_partials/_footer.css';
 @import '_partials/_stuff.css';
 
-/* @import '_partials/_test.css'; */
 
 * {
-	img {
-		/* border: 10px dotted salmon; */
-	}
+	img {}
 }

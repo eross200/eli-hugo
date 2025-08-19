@@ -12,21 +12,27 @@
 	{{ partial "masthead.html" . }}
 
 	{{ partial "nav-desktop.html" . }}
+	<main class="">
+		<div class="container">
 
-	<!-- Code that all your templates share, like a header -->
-	{{ block "main" . }}
-	<!-- The part of the page that begins to differ between templates -->
-	{{ end }}
-	{{ block "footer" . }}
-	<!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-	{{ end }}
+			<!-- Code that all your templates share, like a header -->
+			{{ block "main" . }}
+			<!-- The part of the page that begins to differ between templates -->
+			{{ end }}
+			{{ block "footer" . }}
+			<!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+			{{ end }}
+			
+			{{ partial "welcome.html" . }}
+			
+			<!-- {{ partial "portfolio-eden.html" . }} -->
+			
+			{{ partial "portfolio-freelance.html" . }}
+			
+			{{ partial "footer.html" . }}
 
-	{{ partial "portfolio-eden.html" . }}
-
-	{{ partial "portfolio-freelance.html" . }}
-
-	{{ partial "footer.html" . }}
-
+		</div>
+	</main>
 
 </body>
 
