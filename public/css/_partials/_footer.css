@@ -1,6 +1,19 @@
 
 footer {
 	background: rgb(50, 50, 50);
+	ul li {
+		a {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	hr {
+		border: 0;
+		border-top: 5px dotted var(--green);
+		opacity: 1;
+
+		
+	}
 }
 
 

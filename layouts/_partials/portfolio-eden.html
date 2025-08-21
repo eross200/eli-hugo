@@ -3,6 +3,19 @@
 <section class="section section-eden">
 
 
+<div class="bg-danger d-none">
+
+		{{ range $key, $item := .Site.Data.gallery.gallery }}
+		<div class="gallery-thumb">
+			<img src="{{ $item.img }}" alt="{{ $item.name }}">
+			<div class="caption">{{ $item.name }}</div>
+			<p>{{ $item.bio }}</p>
+		</div>
+		{{ end }}
+
+	</div>
+
+
 
 	<div class="d-flex justify-content-center">
 		<div class="col-8">
