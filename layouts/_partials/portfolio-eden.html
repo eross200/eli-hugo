@@ -3,20 +3,6 @@
 <section class="section section-eden">
 
 
-<div class="bg-danger d-none">
-
-		{{ range $key, $item := .Site.Data.gallery.gallery }}
-		<div class="gallery-thumb">
-			<img src="{{ $item.img }}" alt="{{ $item.name }}">
-			<div class="caption">{{ $item.name }}</div>
-			<p>{{ $item.bio }}</p>
-		</div>
-		{{ end }}
-
-	</div>
-
-
-
 	<div class="d-flex justify-content-center">
 		<div class="col-8">
 			<img class="logo-section" src="{{ .Site.BaseURL }}img/theme-img/logo-edenlong.svg">
@@ -84,6 +70,7 @@
 						<ul class="row list-unstyled thumbnail-grid m-0">
 
 
+							<!--
 							<li class="col-6 col-md-3">
 								<div class="gallery-thumb mb-md-5">
 									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
@@ -92,76 +79,20 @@
 									</div>
 								</div>
 							</li>
+							-->
 
-
+							{{ range $key, $item := .Site.Data.gallery.gallery }}
 							<li class="col-6 col-md-3">
 								<div class="gallery-thumb mb-md-5">
-									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
-									<div class="caption text-center">
-										<a class="" href="#">Randy</a>
-									</div>
+									<img class="img-fluid w-100" src="{{ $item.img }}" alt="{{ $item.name }}">
+									<div class="caption text-center">{{ $item.name }}</div>
+									<p>{{ $item.bio }}</p>
 								</div>
 							</li>
+							{{ end }}
 
 
-							<li class="col-6 col-md-3">
-								<div class="gallery-thumb mb-md-5">
-									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
-									<div class="caption text-center">
-										<a class="" href="#">Randy</a>
-									</div>
-								</div>
-							</li>
-
-
-							<li class="col-6 col-md-3">
-								<div class="gallery-thumb mb-md-5">
-									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
-									<div class="caption text-center">
-										<a class="" href="#">Randy</a>
-									</div>
-								</div>
-							</li>
-
-
-							<li class="col-6 col-md-3">
-								<div class="gallery-thumb mb-md-5">
-									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
-									<div class="caption text-center">
-										<a class="" href="#">Randy</a>
-									</div>
-								</div>
-							</li>
-
-
-							<li class="col-6 col-md-3">
-								<div class="gallery-thumb mb-md-5">
-									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
-									<div class="caption text-center">
-										<a class="" href="#">Randy</a>
-									</div>
-								</div>
-							</li>
-
-
-							<li class="col-6 col-md-3">
-								<div class="gallery-thumb mb-md-5">
-									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
-									<div class="caption text-center">
-										<a class="" href="#">Randy</a>
-									</div>
-								</div>
-							</li>
-
-
-							<li class="col-6 col-md-3">
-								<div class="gallery-thumb mb-md-5">
-									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
-									<div class="caption text-center">
-										<a class="" href="#">Randy</a>
-									</div>
-								</div>
-							</li>
+	
 
 						</ul>
 
