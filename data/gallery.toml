@@ -2,44 +2,53 @@
 [gallery.animated]
 name = "Animated"
 img = "portfolio/mlpics/animated.jpg"
-bio = "Bio here, natch"
+galleryID = "animated"
+
 
 [gallery.benji]
 name = "Benji"
 img = "portfolio/mlpics/benji.jpg"
-bio = "Bio here, natch"
+galleryID = "benji"
+
 
 [gallery.benreilly]
 name = "Ben Reilly"
 img = "portfolio/mlpics/benreilly.jpg"
-bio = "Bio here, natch"
+galleryID = "benreilly"
+
 
 [gallery.chasm]
 name = "Chasm"
 img = "portfolio/mlpics/chasm.jpg"
-bio = "Bio here, natch"
+galleryID = "chasm"
+
 
 [gallery.cyborg]
 name = "Cyborg"
 img = "portfolio/mlpics/cyborg.jpg"
-bio = "Bio here, natch"
+galleryID = "cybortg"
+
 
 [gallery.rose]
 name = "Rose"
 img = "portfolio/mlpics/rose.jpg"
-bio = "Bio here, natch"
+galleryID = "rose"
+
 
 [gallery.scarlet]
 name = "Scarlet Spider"
 img = "portfolio/mlpics/scarlet.jpg"
-bio = "Bio here, natch"
+galleryID = "scarlet"
+
 
 [gallery.spidershot]
 name = "Spidershot"
 img = "portfolio/mlpics/spidershot.jpg"
-bio = "Bio here, natch"
+galleryID = "spidershot"
+
 
 [gallery.tarantula]
 name = "Tarantula"
 img = "portfolio/mlpics/tarantula.jpg"
-bio = "Bio here, natch"
+galleryID = "animated"
+

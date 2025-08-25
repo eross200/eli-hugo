@@ -31,13 +31,24 @@ main {
 
 	.section {
 		ul.thumbnail-grid {
-			img {
-				border-radius: 3px;
-				border: 1px solid gray;
-			}
-			a {
-				text-decoration: none;
-				color: var(--green);
+			.gallery-thumb {
+				border-radius: .33rem;
+				/* background: var(--lightgray); */
+				background: #797979;
+				padding: .66rem;
+				img {
+					aspect-ratio: .75/1;
+					border-radius: .166rem;
+				}
+				.caption {
+					a {
+						border-radius: 4rem;
+						text-decoration: none;
+						/* color: var(--green); */
+						color: #fff;
+						font-size: 60%;
+					}
+				}
 			}
 		}
 		img.logo-section {

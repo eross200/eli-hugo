@@ -31,9 +31,12 @@ main {
 
 	.section {
 		ul.thumbnail-grid {
-			img {
-				border-radius: 3px;
-				border: 1px solid gray;
+			.gallery-thumb {
+				background: rgb(104, 126, 126);
+				img {
+					border-radius: 3px;
+					border: 1px solid fuchsia;
+				}
 			}
 			a {
 				text-decoration: none;
