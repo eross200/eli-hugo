@@ -1,0 +1,40 @@
+
+[storesigns.fruit]
+name = "Fruit"
+img = "portfolio/print-signs/storesign-fruit.jpg"
+galleryID = "fruit"
+
+
+[storesigns.holiday]
+name = "Holiday"
+img = "portfolio/print-signs/storesign-holiday.jpg"
+galleryID = "holiday"
+
+
+[storesigns.mochi]
+name = "Mochi"
+img = "portfolio/print-signs/storesign-mochi.jpg"
+galleryID = "mochi"
+
+
+[storesigns.mushrooms]
+name = "Mushrooms"
+img = "portfolio/print-signs/storesign-mushrooms.jpg"
+galleryID = "mushrooms"
+
+
+[storesigns.sauerkraut]
+name = "Sauerkraut"
+img = "portfolio/print-signs/storesign-sauerkraut.jpg"
+galleryID = "sauerkraut"
+
+
+[storesigns.tahini]
+name = "Tahini"
+img = "portfolio/print-signs/storesign-tahini.jpg"
+galleryID = "tahini"
+
+[storesigns.tea]
+name = "Tea"
+img = "portfolio/print-signs/storesign-tea.jpg"
+galleryID = "tea"

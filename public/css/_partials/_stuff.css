@@ -32,21 +32,22 @@ main {
 	.section {
 		ul.thumbnail-grid {
 			.gallery-thumb {
-				border-radius: .33rem;
-				/* background: var(--lightgray); */
-				background: #797979;
-				padding: .66rem;
+				border: 1px solid rgb(182, 182, 182);
+				padding: 1rem;
+				border-radius: 9px;
 				img {
-					aspect-ratio: .75/1;
-					border-radius: .166rem;
+					border: 1px solid rgb(175, 175, 175);
+					border-radius: 5px;
+					aspect-ratio: 3/4;
+					object-fit: cover;
 				}
 				.caption {
 					a {
-						border-radius: 4rem;
+						display: block;
 						text-decoration: none;
-						/* color: var(--green); */
-						color: #fff;
-						font-size: 60%;
+						color: var(--green);
+						font-size: 66%;
+						line-height: normal;
 					}
 				}
 			}

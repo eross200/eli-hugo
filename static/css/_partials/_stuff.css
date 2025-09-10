@@ -32,15 +32,24 @@ main {
 	.section {
 		ul.thumbnail-grid {
 			.gallery-thumb {
-				background: rgb(104, 126, 126);
+				border: 1px solid rgb(182, 182, 182);
+				padding: 1rem;
+				border-radius: 9px;
 				img {
-					border-radius: 3px;
-					border: 1px solid fuchsia;
+					border: 1px solid rgb(175, 175, 175);
+					border-radius: 5px;
+					aspect-ratio: 3/4;
+					object-fit: cover;
 				}
-			}
-			a {
-				text-decoration: none;
-				color: var(--green);
+				.caption {
+					a {
+						display: block;
+						text-decoration: none;
+						color: var(--green);
+						font-size: 66%;
+						line-height: normal;
+					}
+				}
 			}
 		}
 		img.logo-section {

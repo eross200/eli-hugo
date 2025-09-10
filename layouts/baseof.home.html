@@ -23,9 +23,15 @@
 			<!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
 			{{ end }}
 			
-			{{ partial "welcome.html" . }}
+			{{ partial "resume.html" . }}
+
+			<img class="divider w-100 d-none d-lg-block" src="{{ .Site.BaseURL }}img/theme-img/divider-long.svg">
+			<img class="divider w-100 d-block d-lg-none" src="{{ .Site.BaseURL }}img/theme-img/divider-mid.svg">
 			
 			{{ partial "portfolio-eden.html" . }}
+
+			<img class="divider w-100 d-none d-lg-block" src="{{ .Site.BaseURL }}img/theme-img/divider-long.svg">
+			<img class="divider w-100 d-block d-lg-none" src="{{ .Site.BaseURL }}img/theme-img/divider-mid.svg">
 			
 			{{ partial "portfolio-freelance.html" . }}
 			

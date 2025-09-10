@@ -66,11 +66,34 @@
 						<hr>
 
 						<ul class="row list-unstyled thumbnail-grid m-0">
-
-
-							{{ range $key, $item := .Site.Data.gallery.gallery }}
-
+						
+						
 							<li class="col-6 col-md-3">
+								<div class="gallery-thumb mb-md-5">
+									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
+									<div class="caption text-center">
+										<a class="" href="#">Randy</a>
+									</div>
+								</div>
+							</li>
+						
+						
+						</ul>
+
+					</div>
+
+					<div class="col-md-6">
+
+						<h2>Print</h2>
+
+						<hr>
+
+						<ul class="row list-unstyled thumbnail-grid m-0">
+						
+						
+							{{ range $key, $item := .Site.Data.ads.ads }}
+						
+							<li class="col-6 col-md-4">
 								<div class="gallery-thumb mb-md-5">
 									<a data-bs-toggle="modal" data-bs-target="#{{  $item.galleryID }}" href="#">
 										<img class="img-fluid w-100" src="{{ $item.img }}" alt="{{ $item.name }}">
@@ -80,9 +103,9 @@
 									</div>
 								</div>
 							</li>
-
+						
 							<div class="modal fade" id="{{  $item.galleryID }}" tabindex="-1" aria-labelledby="{{  $item.galleryID }}Label" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-dialog modal-lg modal-dialog-centered">
 									<div class="modal-content">
 										<div class="modal-header">
 											<h1 class="modal-title fs-5" id="{{  $item.galleryID }}Label">{{ $item.name }}</h1>
@@ -97,32 +120,49 @@
 									</div>
 								</div>
 							</div>
-
+						
 							{{ end }}
-
+						
 						</ul>
-
-					</div>
-
-					<div class="col-md-6">
-
-						<h2>Print</h2>
 
 						<hr>
 
 						<ul class="row list-unstyled thumbnail-grid m-0">
-
-
-							<li class="col-6 col-md-3">
+						
+						
+							{{ range $key, $item := .Site.Data.storesigns.storesigns }}
+						
+							<li class="col-6 col-md-4">
 								<div class="gallery-thumb mb-md-5">
-									<a href="#"><img class="img-fluid w-100 wp-post-image" alt="Randy Hickey" src="img/randy.jpg"></a>
+									<a data-bs-toggle="modal" data-bs-target="#{{  $item.galleryID }}" href="#">
+										<img class="img-fluid w-100" src="{{ $item.img }}" alt="{{ $item.name }}">
+									</a>
 									<div class="caption text-center">
-										<a class="" href="#">Randy</a>
+										<a data-bs-toggle="modal" data-bs-target="#{{  $item.galleryID }}" href="#">{{ $item.name }}</a>
 									</div>
 								</div>
 							</li>
-
-
+						
+							<div class="modal fade" id="{{  $item.galleryID }}" tabindex="-1" aria-labelledby="{{  $item.galleryID }}Label" aria-hidden="true">
+								<div class="modal-dialog modal-lg modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h1 class="modal-title fs-5" id="{{  $item.galleryID }}Label">{{ $item.name }}</h1>
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<img class="img-fluid w-100" src="{{ $item.img }}" alt="{{ $item.name }}">
+										</div>
+										<div class="modal-footer">
+											<p>{{ $item.name }}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						
+							{{ end }}
+						
+						
 						</ul>
 
 					</div>

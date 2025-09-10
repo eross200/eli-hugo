@@ -1,0 +1,17 @@
+
+[ads.cereal]
+name = "Afternoon Energy"
+img = "portfolio/print-ads/ad-cereal.jpg"
+galleryID = "cereal"
+
+
+[ads.beans]
+name = "Cream of the Organic Crop"
+img = "portfolio/print-ads/ad-beans.jpg"
+galleryID = "beans"
+
+
+[ads.chili]
+name = "Stupendous Grub"
+img = "portfolio/print-ads/ad-chili.jpg"
+galleryID = "chili"
