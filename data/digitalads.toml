@@ -1,0 +1,29 @@
+
+[digitalads.chili]
+name = "Chili"
+img = "portfolio/digital-ads/digitalad-chili.jpg"
+galleryID = "chili"
+
+
+[digitalads.juice]
+name = "Juice"
+img = "portfolio/digital-ads/digitalad-juice.jpg"
+galleryID = "juice"
+
+
+[digitalads.popcorn]
+name = "Popcorn"
+img = "portfolio/digital-ads/digitalad-popcorn.jpg"
+galleryID = "popcorn"
+
+
+[digitalads.snacks]
+name = "Snacks"
+img = "portfolio/digital-ads/digitalad-snacks.jpg"
+galleryID = "snacks"
+
+
+[digitalads.tea]
+name = "Tea"
+img = "portfolio/digital-ads/digitalad-tea.jpg"
+galleryID = "tea"
