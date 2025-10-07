@@ -7,11 +7,11 @@
 
 <body>
 
-	{{ partial "nav-mobile.html" . }}
+	<!-- {{ partial "nav-mobile.html" . }} -->
 
 	{{ partial "masthead.html" . }}
 
-	{{ partial "nav-desktop.html" . }}
+	<!-- {{ partial "nav-desktop.html" . }} -->
 	<main class="">
 		<div class="container">
 
@@ -25,13 +25,19 @@
 			
 			{{ partial "resume.html" . }}
 
-			<img class="divider w-100 d-none d-lg-block" src="{{ .Site.BaseURL }}img/theme-img/divider-long.svg">
-			<img class="divider w-100 d-block d-lg-none" src="{{ .Site.BaseURL }}img/theme-img/divider-mid.svg">
+			<img class="divider w-100 d-none d-lg-block" src="{{ "img/theme-img/divider-long.svg" | relURL }}">
+			<img class="divider w-100 d-block d-lg-none" src="{{ "img/theme-img/divider-mid.svg" | relURL }}">
 			
+
+
+
+
+
+
 			{{ partial "portfolio-eden.html" . }}
 
-			<img class="divider w-100 d-none d-lg-block" src="{{ .Site.BaseURL }}img/theme-img/divider-long.svg">
-			<img class="divider w-100 d-block d-lg-none" src="{{ .Site.BaseURL }}img/theme-img/divider-mid.svg">
+			<img class="divider w-100 d-none d-lg-block" src="{{ "img/theme-img/divider-long.svg" | relURL }}">
+			<img class="divider w-100 d-block d-lg-none" src="{{ "img/theme-img/divider-mid.svg" | relURL }}">
 			
 			{{ partial "portfolio-freelance.html" . }}
 			

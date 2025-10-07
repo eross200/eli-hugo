@@ -1,7 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://elih3.com/'
 languageCode = 'en-us'
 ignoreLogs = ['warning-goldmark-raw-html']
-title = 'My New Hugo Site'
+title = 'I am Eli! Hey, Hi, Howdy!'
 
 
   [[menus.main]]

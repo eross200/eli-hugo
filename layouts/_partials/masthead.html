@@ -1,19 +1,29 @@
 <header class="masthead vh-100">
 	<div class="container">
-		<div class="d-flex justify-content-center">
+		<div class="d-flex justify-content-center vh-100">
 			<div class="col-12 col-md-10 text-center welcome">
 
 				<div class="masthead-inner">
 
-					<img class="d-none d-md-block masthead-logo" src="{{ .Site.BaseURL }}/img/theme-img/logo-elih3-long.svg">
-					<img class="d-block d-md-none masthead-logo" src="{{ .Site.BaseURL }}/img/theme-img/logo-elih3-stacked.svg">
-					<!-- <img class="masthead-logo" src="img/logo-long.svg"> -->
+					<!-- <img class="d-none d-md-block masthead-logo" src="{{ .Site.BaseURL }}/img/theme-img/logo-elih3-long.svg"> -->
+					<!-- <img class="d-block d-md-none masthead-logo" src="{{ .Site.BaseURL }}/img/theme-img/logo-elih3-stacked.svg"> -->
+					
 
-					<div class="buttons buttons-mobile">
-						{{ range .Site.Menus.main }}
-						<span class="d-block"><a href="{{ .URL }}">{{ .Name }}</a></span>
-						{{ end }}
+						<img class="d-none d-md-block masthead-logo" src="{{ "/img/theme-img/logo-elih3-long.svg" | relURL }}">
+						<img class="d-block d-md-none masthead-logo" src="{{ "/img/theme-img/logo-elih3-stacked.svg" | relURL }}">
+
+
+
+					<div class="row d-none justify-content-center">
+						<div class="col-8 buttons">
+							<ul>
+								{{ range .Site.Menus.main }}
+								<li class="d-inline-block"><a href="{{ .URL }}">{{ .Name }}</a></li>
+								{{ end }}
+							</ul>
+						</div>
 					</div>
+
 
 				</div>
 

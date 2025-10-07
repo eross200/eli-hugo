@@ -13,17 +13,29 @@ header.masthead {
 	.welcome {
 		.masthead-inner {
 			position: relative;
-			top: 25%;
+			top: 20%;
 
 			img.masthead-logo {
 				margin: 0 auto 1rem auto;
 				width: 75%;
 			}
 		
-			.buttons {
+			.buttons ul {
+				padding: 0;
 				font-weight: bold;
 				font-size: 120%;
+				li {
+					border-radius: .25rem;
+					border: 1px dotted var(--lightgreen);
+					margin: .5rem;
+					a {
+						display: block;
+						padding: .5rem;
+					}
+				}
+
 			}
+
 		}
 
 		a {
