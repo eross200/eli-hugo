@@ -7,11 +7,11 @@
 
 <body>
 
-	<!-- {{ partial "nav-mobile.html" . }} -->
+	{{ partial "nav-mobile.html" . }}
 
 	{{ partial "masthead.html" . }}
 
-	<!-- {{ partial "nav-desktop.html" . }} -->
+	{{ partial "nav-desktop.html" . }}
 	<main class="">
 		<div class="container">
 
@@ -30,11 +30,15 @@
 			
 
 
-
+<div class="scrollboxxx" style="width: 4rem; height: 4rem; background: fuchsia;">
+	<p>&copy;</p>
+</div>
 
 
 
 			{{ partial "portfolio-eden.html" . }}
+
+
 
 			<img class="divider w-100 d-none d-lg-block" src="{{ "img/theme-img/divider-long.svg" | relURL }}">
 			<img class="divider w-100 d-block d-lg-none" src="{{ "img/theme-img/divider-mid.svg" | relURL }}">

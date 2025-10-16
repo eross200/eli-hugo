@@ -32,21 +32,30 @@ main {
 	.section {
 		ul.thumbnail-grid {
 			.gallery-thumb {
-				border: 1px solid rgb(182, 182, 182);
-				padding: 1rem;
-				border-radius: 9px;
+				/* border: 1px solid rgb(182, 182, 182); */
+				/* padding: .33rem; */
+				/* border-radius: 9px; */
 				img {
 					border: 1px solid rgb(175, 175, 175);
 					border-radius: 5px;
-					aspect-ratio: 3/4;
+					/* aspect-ratio: 3/4; */
+					aspect-ratio: 1/1;
+					object-position: top;
 					object-fit: cover;
 				}
 				.caption {
 					a {
 						display: block;
 						text-decoration: none;
-						color: var(--green);
-						font-size: 66%;
+						padding: .5rem 1rem;
+						border: 2px solid var(--lightgreen);
+						/* color: var(--green); */
+						background: var(--green);
+						color: rgb(75, 75, 75);
+						border-radius: 2rem;
+						font-family: "Share Tech Mono", monospace;
+						font-weight: bold;
+						/* font-size: 66%; */
 						line-height: normal;
 					}
 				}
